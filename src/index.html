@@ -1,34 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Domain Name Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./4geeks.ico" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
-    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div id="domainNames" class="mt-4"></div>
-      <!-- Placeholder for domain names -->
-      <div class="fixed-bottom p-4">
+      <h1 class="mt-5">Domain Name Generator</h1>
+      <div id="domainName" class="mt-4"></div>
+      <!-- Placeholder for domain name -->
+      <button id="generateButton" class="btn btn-primary mt-4">
+        Generate Domain Name
+      </button>
+      <div id="footer" class="fixed-bottom p-4">
         Made with ❤️ by
         <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
       </div>
     </div>
-    <script src="app.js"></script>
-    <!-- Include the app.js script -->
+    <script src="./app.js"></script>
+    <!-- JavaScript file -->
   </body>
 </html>
